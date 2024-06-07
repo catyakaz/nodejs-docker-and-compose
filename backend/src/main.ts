@@ -6,6 +6,9 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
+      'https://api.kupipodaridaynestjs.nomorepartiesco.ru',
+      'https://kupipodaridaynestjs.nomorepartiesco.ru/',
+      'https://kupipodaridaynestjs.nomorepartiesco.ru',
       'http://localhost:3001',
       'http://example.com',
       'http://www.example.com',
